@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .rating_button{
+        @apply  bg-darkBlue hover:bg-orange h-12 w-12 text-lightgrey hover:text-white font-semibold text-lg px-4 py-2 rounded-full relative flex justify-center items-center;
+    }
+
+    .radio{
+        @apply absolute opacity-0 w-full  h-full top-0 left-0 cursor-pointer;
+    }
+
+    .activeOrange{
+        @apply bg-mediumGrey text-white;
+    }
+}
