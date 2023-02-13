@@ -4,7 +4,9 @@
   "description": "![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)",
   "main": "main.js",
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+     "build":"vite build",
+    "preview":"vite preview"
   },
   "keywords": [],
   "author": "",
